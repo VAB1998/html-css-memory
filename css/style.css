@@ -90,3 +90,14 @@ div.card:hover span{
     z-index: 2;
 }
 
+
+div.front_card > span.air_balloon{
+    color: red;
+}
+
+
+
+
+footer{
+    text-align: center;
+}
