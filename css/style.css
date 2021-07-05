@@ -9,7 +9,6 @@ body{
     font-family: 'Chango', cursive;
     background-color: #5abcf1;
     margin: 0 300px;
-   
 }
 
 header{
@@ -19,7 +18,10 @@ header{
 }
 
 
+
+
 header h1{
+    
     font-size: 3em;
     text-transform: uppercase;
     color: white;
@@ -27,7 +29,6 @@ header h1{
 
 main{
     display: inline-block;
-    /* margin: auto; */
 }
 
 footer{
@@ -39,6 +40,10 @@ div.clearfix::after{
     content: "";
     display: table;
     clear: both;
+}
+
+.center{
+    text-align: center;
 }
 
 
@@ -56,12 +61,8 @@ div.card{
     width: 220px;
     float: left;
     margin-right: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     position: relative;
-
-    
-    /* text-align: center; */
-    /* margin-right: calc(100% - ( 280 * 4 )); */
 }
 
 div.back_card{
@@ -71,7 +72,6 @@ div.back_card{
     background-size: contain; 
     position: absolute;
     z-index: 1;
-    
 }
 
 div.front_card{
@@ -79,7 +79,6 @@ div.front_card{
     width: 100%;
     background-color: white;
     padding-top: 20px;
-    
 } 
 
 
@@ -116,7 +115,7 @@ div.front_card > span.bicycle{
 }
 
 div.front_card > span.cruise_ship{
-    color: green
+    color: green;
     text-shadow: 1px 1px 2px gray;
 }
 
