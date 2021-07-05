@@ -15,6 +15,7 @@ body{
 header{
     text-align: center;
     margin: 20px 0;
+    text-shadow: 1px 1px 2px gray;
 }
 
 
@@ -29,6 +30,11 @@ main{
     /* margin: auto; */
 }
 
+footer{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 div.clearfix::after{
     content: "";
     display: table;
@@ -40,6 +46,11 @@ div.row{
     text-align: center;
 }
 
+
+div.border_radius{
+    border-radius: 25px;
+}
+
 div.card{
     height: 280px;
     width: 220px;
@@ -47,6 +58,8 @@ div.card{
     margin-right: 25px;
     margin-bottom: 20px;
     position: relative;
+
+    
     /* text-align: center; */
     /* margin-right: calc(100% - ( 280 * 4 )); */
 }
@@ -56,9 +69,9 @@ div.back_card{
     width: 100%;
     background-image: url(../img/pattern.png);
     background-size: contain; 
-
     position: absolute;
     z-index: 1;
+    
 }
 
 div.front_card{
@@ -66,6 +79,7 @@ div.front_card{
     width: 100%;
     background-color: white;
     padding-top: 20px;
+    
 } 
 
 
@@ -93,11 +107,32 @@ div.card:hover span{
 
 div.front_card > span.air_balloon{
     color: red;
+    text-shadow: 1px 1px 2px gray;
+}
+
+div.front_card > span.bicycle{
+    color: blue;
+    text-shadow: 1px 1px 2px gray;
+}
+
+div.front_card > span.cruise_ship{
+    color: green
+    text-shadow: 1px 1px 2px gray;
+}
+
+div.front_card > span.submarine{
+    color: pink;
+    text-shadow: 1px 1px 2px gray;
+}
+
+div.front_card > span.tractor{
+    color: brown;
+    text-shadow: 1px 1px 2px gray;
+}
+
+div.front_card > span.tram{
+    color: lightblue;
+    text-shadow: 1px 1px 2px gray;
 }
 
 
-
-
-footer{
-    text-align: center;
-}
