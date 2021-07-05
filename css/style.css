@@ -8,6 +8,7 @@
 body{
     font-family: 'Chango', cursive;
     background-color: #5abcf1;
+    margin: 0 200px;
 }
 
 header{
@@ -17,6 +18,7 @@ header{
 
 }
 
+
 header h1{
     font-size: 3em;
     text-transform: uppercase;
@@ -24,10 +26,34 @@ header h1{
     color: white;
 }
 
-div.back_card{
+div.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+div.row{
+    text-align: center;
+}
+div.card{
     height: 280px;
     width: 220px;
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    /* margin-left: calc(100% - ( 280 * 4 )); */
+}
+
+div.back_card{
+    height: 100%;
+    width: 100%;
     background-image: url(../img/pattern.png);
-    background-size: contain;
+    background-size: contain; 
+}
+
+
+div.row > div.card:last-child{
+    margin-right: 25px;
 }
 
