@@ -18,7 +18,6 @@ header{
 
 }
 
-
 header h1{
     font-size: 3em;
     text-transform: uppercase;
@@ -33,9 +32,10 @@ div.clearfix::after{
 }
 
 
-div.row{
+/* div.row{
     text-align: center;
-}
+} */
+
 div.card{
     height: 280px;
     width: 220px;
@@ -60,29 +60,29 @@ div.back_card{
 div.front_card{
     height: 100%;
     width: 100%;
-    background-image: url(../img/noun_air_balloon_3134741.png);
     background-color: white;
-    background-size: contain; 
-    background-repeat: no-repeat;
+    padding-top: 20px;
+} 
 
-   
-    /* text-align: center; */
+
+div.front_card img{
+    width: 100%;
 }
 
-
-
-div.front_card > span{
-    position: absolute;
-    bottom: 0;
-}
 
 div.row > div.card:last-child{
     margin-right: 25px;
 }
 
-
+/* Hover effect */
 div.card:hover .front_card{
-    position: absolute;
+    position: relative;
+    z-index: 2;
+    text-align: center;
+}
+
+div.card:hover span{
+    position: relative;
     z-index: 2;
 }
 
