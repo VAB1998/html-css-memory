@@ -12,16 +12,13 @@ body{
 }
 
 header{
-    margin: auto;
     text-align: center;
     margin: 20px 0;
-
 }
 
 header h1{
     font-size: 3em;
     text-transform: uppercase;
-    display: inline-block;
     color: white;
 }
 
@@ -44,7 +41,7 @@ div.card{
     margin-bottom: 20px;
     position: relative;
     /* text-align: center; */
-    /* margin-left: calc(100% - ( 280 * 4 )); */
+    /* margin-right: calc(100% - ( 280 * 4 )); */
 }
 
 div.back_card{
