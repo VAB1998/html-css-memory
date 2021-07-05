@@ -8,7 +8,6 @@
 body{
     font-family: 'Chango', cursive;
     background-color: #5abcf1;
-    margin: 0 300px;
 }
 
 header{
@@ -18,17 +17,14 @@ header{
 }
 
 
-
-
 header h1{
-    
     font-size: 3em;
     text-transform: uppercase;
     color: white;
 }
 
 main{
-    display: inline-block;
+    text-align: center;
 }
 
 footer{
@@ -43,7 +39,7 @@ div.clearfix::after{
 }
 
 .center{
-    text-align: center;
+    display: inline-block;
 }
 
 
