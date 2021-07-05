@@ -42,6 +42,8 @@ div.card{
     float: left;
     margin-right: 25px;
     margin-bottom: 20px;
+    position: relative;
+    /* text-align: center; */
     /* margin-left: calc(100% - ( 280 * 4 )); */
 }
 
@@ -50,10 +52,37 @@ div.back_card{
     width: 100%;
     background-image: url(../img/pattern.png);
     background-size: contain; 
+
+    position: absolute;
+    z-index: 1;
+}
+
+div.front_card{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-color: white;
+    background-size: contain; 
+    background-repeat: no-repeat;
+
+   
+    /* text-align: center; */
 }
 
 
+
+div.front_card > span{
+    position: absolute;
+    bottom: 0;
+}
+
 div.row > div.card:last-child{
     margin-right: 25px;
+}
+
+
+div.card:hover .front_card{
+    position: absolute;
+    z-index: 2;
 }
 
