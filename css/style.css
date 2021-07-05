@@ -8,7 +8,8 @@
 body{
     font-family: 'Chango', cursive;
     background-color: #5abcf1;
-    margin: 0 200px;
+    margin: 0 300px;
+   
 }
 
 header{
@@ -16,10 +17,16 @@ header{
     margin: 20px 0;
 }
 
+
 header h1{
     font-size: 3em;
     text-transform: uppercase;
     color: white;
+}
+
+main{
+    display: inline-block;
+    /* margin: auto; */
 }
 
 div.clearfix::after{
@@ -29,9 +36,9 @@ div.clearfix::after{
 }
 
 
-/* div.row{
+div.row{
     text-align: center;
-} */
+}
 
 div.card{
     height: 280px;
@@ -68,7 +75,7 @@ div.front_card img{
 
 
 div.row > div.card:last-child{
-    margin-right: 25px;
+    margin-right: 0;
 }
 
 /* Hover effect */
