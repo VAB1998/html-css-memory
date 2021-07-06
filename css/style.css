@@ -42,11 +42,9 @@ div.clearfix::after{
     display: inline-block;
 }
 
-
 div.row{
     text-align: center;
 }
-
 
 div.border_radius{
     border-radius: 25px;
@@ -99,35 +97,32 @@ div.card:hover span{
     z-index: 2;
 }
 
+div.front_card > span{
+    text-shadow: 1px 1px 2px gray;
+}
 
 div.front_card > span.air_balloon{
     color: red;
-    text-shadow: 1px 1px 2px gray;
 }
 
 div.front_card > span.bicycle{
     color: blue;
-    text-shadow: 1px 1px 2px gray;
 }
 
 div.front_card > span.cruise_ship{
     color: green;
-    text-shadow: 1px 1px 2px gray;
 }
 
 div.front_card > span.submarine{
     color: pink;
-    text-shadow: 1px 1px 2px gray;
 }
 
 div.front_card > span.tractor{
     color: brown;
-    text-shadow: 1px 1px 2px gray;
 }
 
 div.front_card > span.tram{
     color: lightblue;
-    text-shadow: 1px 1px 2px gray;
 }
 
 
